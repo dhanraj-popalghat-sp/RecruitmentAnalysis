@@ -1,0 +1,443 @@
+2017-10-27 19:09:21,615[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-27 19:09:21,618[yyyy-mm-dd HH-MM-SS] DEBUG file found : java.io.BufferedInputStream@1aeb7ab 
+2017-10-27 19:09:21,619[yyyy-mm-dd HH-MM-SS] DEBUG Database Connection String : jdbc:mysql://localhost:3306/recruitment?useSSL=false 
+2017-10-27 19:09:21,998[yyyy-mm-dd HH-MM-SS] INFO  Connection established com.mysql.jdbc.JDBC4Connection@1dac704 
+2017-10-27 19:09:22,019[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@b3fc9e: SELECT post.* FROM post INNER JOIN post_skillset ON post.post_id=post_skillset.post_id WHERE post_skillset.skill_id=** NOT SPECIFIED ** 
+2017-10-27 20:34:47,957[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-27 20:34:47,960[yyyy-mm-dd HH-MM-SS] DEBUG file found : java.io.BufferedInputStream@1eba861 
+2017-10-27 20:34:47,960[yyyy-mm-dd HH-MM-SS] DEBUG Database Connection String : jdbc:mysql://localhost:3306/recruitment?useSSL=false 
+2017-10-27 20:34:48,320[yyyy-mm-dd HH-MM-SS] INFO  Connection established com.mysql.jdbc.JDBC4Connection@aa6d82 
+2017-10-27 20:34:48,341[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@1def03a: SELECT * FROM post 
+2017-10-27 20:34:48,344[yyyy-mm-dd HH-MM-SS] DEBUG All positions : [Position [postId=1, postName=sw, noOfPosts=3, experience=5.5, hr=HumanResource [hrId=1, name=null, department=null, contact=null], dateOfPost=1970-01-01, status=true], Position [postId=2, postName=junior java developer, noOfPosts=2, experience=3.0, hr=HumanResource [hrId=1, name=null, department=null, contact=null], dateOfPost=1970-01-01, status=true]] 
+2017-10-27 20:36:33,939[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-27 20:36:33,941[yyyy-mm-dd HH-MM-SS] DEBUG file found : java.io.BufferedInputStream@1eba861 
+2017-10-27 20:36:33,942[yyyy-mm-dd HH-MM-SS] DEBUG Database Connection String : jdbc:mysql://localhost:3306/recruitment?useSSL=false 
+2017-10-27 20:36:34,307[yyyy-mm-dd HH-MM-SS] INFO  Connection established com.mysql.jdbc.JDBC4Connection@aa6d82 
+2017-10-27 20:36:34,327[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@1def03a: SELECT * FROM post WHERE post_name=** NOT SPECIFIED ** 
+2017-10-27 20:37:01,598[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-27 20:37:01,601[yyyy-mm-dd HH-MM-SS] DEBUG file found : java.io.BufferedInputStream@1eba861 
+2017-10-27 20:37:01,602[yyyy-mm-dd HH-MM-SS] DEBUG Database Connection String : jdbc:mysql://localhost:3306/recruitment?useSSL=false 
+2017-10-27 20:37:01,953[yyyy-mm-dd HH-MM-SS] INFO  Connection established com.mysql.jdbc.JDBC4Connection@aa6d82 
+2017-10-27 20:37:01,974[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@1def03a: SELECT * FROM post WHERE post_name=** NOT SPECIFIED ** 
+2017-10-27 20:37:34,834[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-27 20:37:34,837[yyyy-mm-dd HH-MM-SS] DEBUG file found : java.io.BufferedInputStream@1eba861 
+2017-10-27 20:37:34,837[yyyy-mm-dd HH-MM-SS] DEBUG Database Connection String : jdbc:mysql://localhost:3306/recruitment?useSSL=false 
+2017-10-27 20:37:35,196[yyyy-mm-dd HH-MM-SS] INFO  Connection established com.mysql.jdbc.JDBC4Connection@aa6d82 
+2017-10-27 20:37:35,219[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@1ae6ba4: SELECT {0}.* FROM {0} INNER JOIN {1} ON {0}.{2}={1}.{2} WHERE {1}.{3}=** NOT SPECIFIED ** 
+2017-10-27 20:37:35,248[yyyy-mm-dd HH-MM-SS] ERROR You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0}.* FROM {0} INNER JOIN {1} ON {0}.{2}={1}.{2} WHERE {1}.{3}=3.0' at line 1 
+2017-10-27 20:37:43,776[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-27 20:37:43,778[yyyy-mm-dd HH-MM-SS] DEBUG file found : java.io.BufferedInputStream@1eba861 
+2017-10-27 20:37:43,779[yyyy-mm-dd HH-MM-SS] DEBUG Database Connection String : jdbc:mysql://localhost:3306/recruitment?useSSL=false 
+2017-10-27 20:37:44,136[yyyy-mm-dd HH-MM-SS] INFO  Connection established com.mysql.jdbc.JDBC4Connection@aa6d82 
+2017-10-27 20:37:44,158[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@1ae6ba4: SELECT {0}.* FROM {0} INNER JOIN {1} ON {0}.{2}={1}.{2} WHERE {1}.{3}=** NOT SPECIFIED ** 
+2017-10-27 20:37:44,168[yyyy-mm-dd HH-MM-SS] ERROR You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0}.* FROM {0} INNER JOIN {1} ON {0}.{2}={1}.{2} WHERE {1}.{3}=3.0' at line 1 
+2017-10-27 20:47:53,469[yyyy-mm-dd HH-MM-SS] INFO  SELECT * FROM post WHERE experience=? 
+2017-10-27 20:47:53,472[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-27 20:47:53,473[yyyy-mm-dd HH-MM-SS] DEBUG file found : java.io.BufferedInputStream@1480cf9 
+2017-10-27 20:47:53,473[yyyy-mm-dd HH-MM-SS] DEBUG Database Connection String : jdbc:mysql://localhost:3306/recruitment?useSSL=false 
+2017-10-27 20:47:53,824[yyyy-mm-dd HH-MM-SS] INFO  Connection established com.mysql.jdbc.JDBC4Connection@1a28541 
+2017-10-27 20:47:53,846[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@cf768c: SELECT {0}.* FROM {0} INNER JOIN {1} ON {0}.{2}={1}.{2} WHERE {1}.{3}=** NOT SPECIFIED ** 
+2017-10-27 20:47:53,856[yyyy-mm-dd HH-MM-SS] ERROR You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0}.* FROM {0} INNER JOIN {1} ON {0}.{2}={1}.{2} WHERE {1}.{3}=3.0' at line 1 
+2017-10-27 20:50:30,505[yyyy-mm-dd HH-MM-SS] INFO  SELECT * FROM post WHERE experience=? 
+2017-10-27 20:50:30,508[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-27 20:50:30,508[yyyy-mm-dd HH-MM-SS] DEBUG file found : java.io.BufferedInputStream@1480cf9 
+2017-10-27 20:50:30,509[yyyy-mm-dd HH-MM-SS] DEBUG Database Connection String : jdbc:mysql://localhost:3306/recruitment?useSSL=false 
+2017-10-27 20:50:30,866[yyyy-mm-dd HH-MM-SS] INFO  Connection established com.mysql.jdbc.JDBC4Connection@1a28541 
+2017-10-27 20:50:30,887[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@122cdd0: SELECT * FROM post WHERE experience=** NOT SPECIFIED ** 
+2017-10-27 21:19:02,563[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-27 21:19:02,565[yyyy-mm-dd HH-MM-SS] DEBUG file found : java.io.BufferedInputStream@1eba861 
+2017-10-27 21:19:02,566[yyyy-mm-dd HH-MM-SS] DEBUG Database Connection String : jdbc:mysql://localhost:3306/recruitment?useSSL=false 
+2017-10-27 21:19:02,930[yyyy-mm-dd HH-MM-SS] INFO  Connection established com.mysql.jdbc.JDBC4Connection@aa6d82 
+2017-10-27 21:19:02,952[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@1def03a: INSERT INTO post (post_name,no_of_posts,experience,hr_id,date_of_post,status) values (** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **) 
+2017-10-27 21:19:03,030[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-27 21:19:03,032[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@12ddf17: SELECT * FROM {0} WHERE {1}=** NOT SPECIFIED ** 
+2017-10-27 21:22:48,001[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-27 21:22:48,004[yyyy-mm-dd HH-MM-SS] DEBUG file found : java.io.BufferedInputStream@1eba861 
+2017-10-27 21:22:48,004[yyyy-mm-dd HH-MM-SS] DEBUG Database Connection String : jdbc:mysql://localhost:3306/recruitment?useSSL=false 
+2017-10-27 21:22:48,357[yyyy-mm-dd HH-MM-SS] INFO  Connection established com.mysql.jdbc.JDBC4Connection@aa6d82 
+2017-10-27 21:22:48,378[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@1def03a: INSERT INTO post (post_name,no_of_posts,experience,hr_id,date_of_post,status) values (** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **) 
+2017-10-27 21:22:48,490[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-27 21:22:48,494[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@12ddf17: SELECT * FROM {0} WHERE {1}=** NOT SPECIFIED ** 
+2017-10-27 21:27:12,931[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-27 21:27:12,934[yyyy-mm-dd HH-MM-SS] DEBUG file found : java.io.BufferedInputStream@1eba861 
+2017-10-27 21:27:12,934[yyyy-mm-dd HH-MM-SS] DEBUG Database Connection String : jdbc:mysql://localhost:3306/recruitment?useSSL=false 
+2017-10-27 21:27:13,281[yyyy-mm-dd HH-MM-SS] INFO  Connection established com.mysql.jdbc.JDBC4Connection@aa6d82 
+2017-10-27 21:27:13,303[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@1ae6ba4: SELECT * FROM {0} WHERE {1}=** NOT SPECIFIED ** 
+2017-10-27 21:28:12,417[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-27 21:28:12,419[yyyy-mm-dd HH-MM-SS] DEBUG file found : java.io.BufferedInputStream@1eba861 
+2017-10-27 21:28:12,420[yyyy-mm-dd HH-MM-SS] DEBUG Database Connection String : jdbc:mysql://localhost:3306/recruitment?useSSL=false 
+2017-10-27 21:28:12,808[yyyy-mm-dd HH-MM-SS] INFO  Connection established com.mysql.jdbc.JDBC4Connection@aa6d82 
+2017-10-27 21:28:12,830[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@1def03a: SELECT * FROM post WHERE post_id=** NOT SPECIFIED ** 
+2017-10-27 21:31:09,370[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-27 21:31:09,372[yyyy-mm-dd HH-MM-SS] DEBUG file found : java.io.BufferedInputStream@1eba861 
+2017-10-27 21:31:09,373[yyyy-mm-dd HH-MM-SS] DEBUG Database Connection String : jdbc:mysql://localhost:3306/recruitment?useSSL=false 
+2017-10-27 21:31:09,726[yyyy-mm-dd HH-MM-SS] INFO  Connection established com.mysql.jdbc.JDBC4Connection@aa6d82 
+2017-10-27 21:31:09,747[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@1def03a: DELETE FROM post WHERE post_id=** NOT SPECIFIED ** 
+2017-10-27 21:31:10,036[yyyy-mm-dd HH-MM-SS] INFO  Position deleted : 1 
+2017-10-28 10:28:58,998[yyyy-mm-dd HH-MM-SS] INFO  SELECT * FROM {0} WHERE {1}<? 
+2017-10-28 10:28:59,001[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-28 10:28:59,002[yyyy-mm-dd HH-MM-SS] DEBUG file found : java.io.BufferedInputStream@1480cf9 
+2017-10-28 10:28:59,003[yyyy-mm-dd HH-MM-SS] DEBUG Database Connection String : jdbc:mysql://localhost:3306/recruitment?useSSL=false 
+2017-10-28 10:28:59,375[yyyy-mm-dd HH-MM-SS] INFO  Connection established com.mysql.jdbc.JDBC4Connection@1a28541 
+2017-10-28 10:28:59,397[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@cf768c: SELECT * FROM {0} WHERE {1}<** NOT SPECIFIED ** 
+2017-10-28 10:28:59,408[yyyy-mm-dd HH-MM-SS] ERROR You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0} WHERE {1}<4.0' at line 1 
+2017-10-28 10:29:37,730[yyyy-mm-dd HH-MM-SS] INFO  SELECT * FROM {0} WHERE {1}<? 
+2017-10-28 10:29:37,733[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-28 10:29:37,734[yyyy-mm-dd HH-MM-SS] DEBUG file found : java.io.BufferedInputStream@1480cf9 
+2017-10-28 10:29:37,735[yyyy-mm-dd HH-MM-SS] DEBUG Database Connection String : jdbc:mysql://localhost:3306/recruitment?useSSL=false 
+2017-10-28 10:29:38,106[yyyy-mm-dd HH-MM-SS] INFO  Connection established com.mysql.jdbc.JDBC4Connection@1a28541 
+2017-10-28 10:29:38,131[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@cf768c: SELECT * FROM {0} WHERE {1}<** NOT SPECIFIED ** 
+2017-10-28 10:29:38,142[yyyy-mm-dd HH-MM-SS] ERROR You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0} WHERE {1}<4.0' at line 1 
+2017-10-28 10:31:58,417[yyyy-mm-dd HH-MM-SS] INFO  SELECT * FROM post WHERE experience<? 
+2017-10-28 10:31:58,419[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-28 10:31:58,420[yyyy-mm-dd HH-MM-SS] DEBUG file found : java.io.BufferedInputStream@1480cf9 
+2017-10-28 10:31:58,421[yyyy-mm-dd HH-MM-SS] DEBUG Database Connection String : jdbc:mysql://localhost:3306/recruitment?useSSL=false 
+2017-10-28 10:31:58,795[yyyy-mm-dd HH-MM-SS] INFO  Connection established com.mysql.jdbc.JDBC4Connection@1a28541 
+2017-10-28 10:31:58,817[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@122cdd0: SELECT * FROM post WHERE experience<** NOT SPECIFIED ** 
+2017-10-28 11:03:09,872[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-28 11:03:09,874[yyyy-mm-dd HH-MM-SS] DEBUG file found : java.io.BufferedInputStream@1eba861 
+2017-10-28 11:03:09,875[yyyy-mm-dd HH-MM-SS] DEBUG Database Connection String : jdbc:mysql://localhost:3306/recruitment?useSSL=false 
+2017-10-28 11:03:10,309[yyyy-mm-dd HH-MM-SS] INFO  Connection established com.mysql.jdbc.JDBC4Connection@aa6d82 
+2017-10-28 11:03:10,330[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@1def03a: SELECT * FROM post WHERE post_id=** NOT SPECIFIED ** 
+2017-10-28 11:03:10,332[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-28 11:03:10,333[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@1591d15: UPDATE post SET post_name=** NOT SPECIFIED **,no_of_posts=** NOT SPECIFIED **,experience=** NOT SPECIFIED **,hr_id=** NOT SPECIFIED **,date_of_post=** NOT SPECIFIED **,status=** NOT SPECIFIED ** WHERE post_id=** NOT SPECIFIED ** 
+2017-10-28 11:03:10,449[yyyy-mm-dd HH-MM-SS] DEBUG position updated with position id : 2 
+2017-10-28 11:03:10,449[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-28 11:03:10,450[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@12ddf17: SELECT * FROM post WHERE post_id=** NOT SPECIFIED ** 
+2017-10-28 15:21:42,925[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-28 15:21:42,947[yyyy-mm-dd HH-MM-SS] DEBUG file found : java.io.BufferedInputStream@1eba861 
+2017-10-28 15:21:42,947[yyyy-mm-dd HH-MM-SS] DEBUG Database Connection String : jdbc:mysql://localhost:3306/recruitment?useSSL=false 
+2017-10-28 15:21:43,553[yyyy-mm-dd HH-MM-SS] INFO  Connection established com.mysql.jdbc.JDBC4Connection@aa6d82 
+2017-10-28 15:21:43,574[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@1def03a: SELECT * FROM interview WHERE applicant_id=** NOT SPECIFIED ** AND post_id=** NOT SPECIFIED ** 
+2017-10-28 15:21:43,577[yyyy-mm-dd HH-MM-SS] DEBUG Get interview object : Interview [applicant=Applicant [applicantId=1, name=null, experience=0.0, highest_qual=null, email=null, contact=null], position=Position [postId=1, postName=null, noOfPosts=0, experience=0.0, hr=null, dateOfPost=null, status=false], dateOfInterview=2017-11-09, location=Pune, applicantResult=true, joiningStatus=true] 
+2017-10-28 15:27:11,159[yyyy-mm-dd HH-MM-SS] INFO  interview insert query : INSERT INTO interview (applicant_id,post_id,date_of_interview,date_of_joining,location,applicant_result,joining_status) values (?,?,?,?,?,?,?) 
+2017-10-28 15:27:11,162[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-28 15:27:11,163[yyyy-mm-dd HH-MM-SS] DEBUG file found : java.io.BufferedInputStream@1480cf9 
+2017-10-28 15:27:11,163[yyyy-mm-dd HH-MM-SS] DEBUG Database Connection String : jdbc:mysql://localhost:3306/recruitment?useSSL=false 
+2017-10-28 15:27:11,521[yyyy-mm-dd HH-MM-SS] INFO  Connection established com.mysql.jdbc.JDBC4Connection@1a28541 
+2017-10-28 15:27:11,543[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@122cdd0: INSERT INTO interview (applicant_id,post_id,date_of_interview,date_of_joining,location,applicant_result,joining_status) values (** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **) 
+2017-10-28 15:28:56,439[yyyy-mm-dd HH-MM-SS] INFO  interview insert query : INSERT INTO interview (applicant_id,post_id,date_of_interview,date_of_joining,location,applicant_result,joining_status) values (?,?,?,?,?,?,?) 
+2017-10-28 15:28:56,442[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-28 15:28:56,443[yyyy-mm-dd HH-MM-SS] DEBUG file found : java.io.BufferedInputStream@1480cf9 
+2017-10-28 15:28:56,444[yyyy-mm-dd HH-MM-SS] DEBUG Database Connection String : jdbc:mysql://localhost:3306/recruitment?useSSL=false 
+2017-10-28 15:28:56,866[yyyy-mm-dd HH-MM-SS] INFO  Connection established com.mysql.jdbc.JDBC4Connection@1a28541 
+2017-10-28 15:28:56,888[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@122cdd0: INSERT INTO interview (applicant_id,post_id,date_of_interview,date_of_joining,location,applicant_result,joining_status) values (** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **) 
+2017-10-28 15:32:00,567[yyyy-mm-dd HH-MM-SS] INFO  interview insert query : INSERT INTO interview (applicant_id,post_id,date_of_interview,date_of_joining,location,applicant_result,joining_status) values (?,?,?,?,?,?,?) 
+2017-10-28 15:32:00,570[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-28 15:32:00,571[yyyy-mm-dd HH-MM-SS] DEBUG file found : java.io.BufferedInputStream@1480cf9 
+2017-10-28 15:32:00,571[yyyy-mm-dd HH-MM-SS] DEBUG Database Connection String : jdbc:mysql://localhost:3306/recruitment?useSSL=false 
+2017-10-28 15:32:00,922[yyyy-mm-dd HH-MM-SS] INFO  Connection established com.mysql.jdbc.JDBC4Connection@1a28541 
+2017-10-28 15:32:00,944[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@122cdd0: INSERT INTO interview (applicant_id,post_id,date_of_interview,date_of_joining,location,applicant_result,joining_status) values (** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **) 
+2017-10-28 15:33:10,290[yyyy-mm-dd HH-MM-SS] INFO  interview insert query : INSERT INTO interview (applicant_id,post_id,date_of_interview,date_of_joining,location,applicant_result,joining_status) values (?,?,?,?,?,?,?) 
+2017-10-28 15:33:10,293[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-28 15:33:10,294[yyyy-mm-dd HH-MM-SS] DEBUG file found : java.io.BufferedInputStream@1480cf9 
+2017-10-28 15:33:10,294[yyyy-mm-dd HH-MM-SS] DEBUG Database Connection String : jdbc:mysql://localhost:3306/recruitment?useSSL=false 
+2017-10-28 15:33:10,654[yyyy-mm-dd HH-MM-SS] INFO  Connection established com.mysql.jdbc.JDBC4Connection@1a28541 
+2017-10-28 15:33:10,672[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@122cdd0: INSERT INTO interview (applicant_id,post_id,date_of_interview,date_of_joining,location,applicant_result,joining_status) values (** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **) 
+2017-10-28 15:33:10,738[yyyy-mm-dd HH-MM-SS] DEBUG interview added check : 1 
+2017-10-28 15:33:10,739[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-28 15:33:10,739[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@6824be: SELECT * FROM interview WHERE applicant_id=** NOT SPECIFIED ** AND post_id=** NOT SPECIFIED ** 
+2017-10-28 15:33:10,741[yyyy-mm-dd HH-MM-SS] DEBUG Get interview object : Interview [applicant=Applicant [applicantId=4, name=null, experience=0.0, highest_qual=null, email=null, contact=null], position=Position [postId=2, postName=null, noOfPosts=0, experience=0.0, hr=null, dateOfPost=null, status=false], dateOfInterview=1970-01-01, dateOfJoining=1970-01-01, location=Aurangabad, applicantResult=true, joiningStatus=true] 
+2017-10-28 16:09:24,209[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-28 16:09:24,212[yyyy-mm-dd HH-MM-SS] DEBUG file found : java.io.BufferedInputStream@1eba861 
+2017-10-28 16:09:24,212[yyyy-mm-dd HH-MM-SS] DEBUG Database Connection String : jdbc:mysql://localhost:3306/recruitment?useSSL=false 
+2017-10-28 16:09:24,614[yyyy-mm-dd HH-MM-SS] INFO  Connection established com.mysql.jdbc.JDBC4Connection@aa6d82 
+2017-10-28 16:09:24,637[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@1def03a: SELECT * FROM interview 
+2017-10-28 16:09:24,640[yyyy-mm-dd HH-MM-SS] DEBUG All interviews : [Interview [applicant=Applicant [applicantId=4, name=null, experience=0.0, highest_qual=null, email=null, contact=null], position=Position [postId=2, postName=null, noOfPosts=0, experience=0.0, hr=null, dateOfPost=null, status=false], dateOfInterview=2017-11-09, dateOfJoining=2017-11-15, location=Pune, applicantResult=true, joiningStatus=true], Interview [applicant=Applicant [applicantId=4, name=null, experience=0.0, highest_qual=null, email=null, contact=null], position=Position [postId=2, postName=null, noOfPosts=0, experience=0.0, hr=null, dateOfPost=null, status=false], dateOfInterview=2017-11-09, dateOfJoining=2017-11-15, location=Abad, applicantResult=true, joiningStatus=true], Interview [applicant=Applicant [applicantId=4, name=null, experience=0.0, highest_qual=null, email=null, contact=null], position=Position [postId=2, postName=null, noOfPosts=0, experience=0.0, hr=null, dateOfPost=null, status=false], dateOfInterview=2017-11-10, dateOfJoining=2017-11-20, location=Beed, applicantResult=true, joiningStatus=false], Interview [applicant=Applicant [applicantId=4, name=null, experience=0.0, highest_qual=null, email=null, contact=null], position=Position [postId=2, postName=null, noOfPosts=0, experience=0.0, hr=null, dateOfPost=null, status=false], dateOfInterview=1970-01-01, dateOfJoining=1970-01-01, location=Aurangabad, applicantResult=true, joiningStatus=true]] 
+2017-10-28 19:46:42,307[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-28 19:46:42,310[yyyy-mm-dd HH-MM-SS] DEBUG file found : java.io.BufferedInputStream@1eba861 
+2017-10-28 19:46:42,311[yyyy-mm-dd HH-MM-SS] DEBUG Database Connection String : jdbc:mysql://localhost:3306/recruitment?useSSL=false 
+2017-10-28 19:46:42,729[yyyy-mm-dd HH-MM-SS] INFO  Connection established com.mysql.jdbc.JDBC4Connection@aa6d82 
+2017-10-28 19:46:42,750[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@1def03a: SELECT * FROM interview WHERE applicant_id=** NOT SPECIFIED ** AND post_id=** NOT SPECIFIED ** 
+2017-10-28 19:46:42,753[yyyy-mm-dd HH-MM-SS] DEBUG Get interview object : Interview [applicant=Applicant [applicantId=4, name=null, experience=0.0, highest_qual=null, email=null, contact=null], position=Position [postId=2, postName=null, noOfPosts=0, experience=0.0, hr=null, dateOfPost=null, status=false], dateOfInterview=1970-01-01, dateOfJoining=1970-01-01, location=Aurangabad, applicantResult=true, joiningStatus=true] 
+2017-10-28 19:46:42,753[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-28 19:46:42,754[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@1ae6ba4: UPDATE interview SET date_of_interview=** NOT SPECIFIED **,date_of_joining=** NOT SPECIFIED **,location=** NOT SPECIFIED **,applicant_result=** NOT SPECIFIED **,joining_status=** NOT SPECIFIED ** WHERE applicant_id=** NOT SPECIFIED ** AND post_id=** NOT SPECIFIED ** 
+2017-10-28 19:46:42,889[yyyy-mm-dd HH-MM-SS] DEBUG interview updated with post id : 2 and 4 
+2017-10-28 19:46:42,889[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-28 19:46:42,890[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@13da15: SELECT * FROM interview WHERE applicant_id=** NOT SPECIFIED ** AND post_id=** NOT SPECIFIED ** 
+2017-10-28 19:46:42,892[yyyy-mm-dd HH-MM-SS] DEBUG Get interview object : Interview [applicant=Applicant [applicantId=4, name=null, experience=0.0, highest_qual=null, email=null, contact=null], position=Position [postId=2, postName=null, noOfPosts=0, experience=0.0, hr=null, dateOfPost=null, status=false], dateOfInterview=2017-02-01, dateOfJoining=2017-02-01, location=Aurangabad, applicantResult=true, joiningStatus=true] 
+2017-10-28 19:51:29,153[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-28 19:51:29,155[yyyy-mm-dd HH-MM-SS] DEBUG file found : java.io.BufferedInputStream@1eba861 
+2017-10-28 19:51:29,156[yyyy-mm-dd HH-MM-SS] DEBUG Database Connection String : jdbc:mysql://localhost:3306/recruitment?useSSL=false 
+2017-10-28 19:51:29,518[yyyy-mm-dd HH-MM-SS] INFO  Connection established com.mysql.jdbc.JDBC4Connection@aa6d82 
+2017-10-28 19:51:29,539[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@1def03a: SELECT * FROM interview WHERE applicant_id=** NOT SPECIFIED ** AND post_id=** NOT SPECIFIED ** 
+2017-10-28 19:51:29,542[yyyy-mm-dd HH-MM-SS] DEBUG Get interview object : Interview [applicant=Applicant [applicantId=4, name=null, experience=0.0, highest_qual=null, email=null, contact=null], position=Position [postId=2, postName=null, noOfPosts=0, experience=0.0, hr=null, dateOfPost=null, status=false], dateOfInterview=2017-02-01, dateOfJoining=2017-02-01, location=Aurangabad, applicantResult=true, joiningStatus=true] 
+2017-10-28 19:51:29,542[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-28 19:51:29,543[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@1ae6ba4: UPDATE interview SET date_of_interview=** NOT SPECIFIED **,date_of_joining=** NOT SPECIFIED **,location=** NOT SPECIFIED **,applicant_result=** NOT SPECIFIED **,joining_status=** NOT SPECIFIED ** WHERE applicant_id=** NOT SPECIFIED ** AND post_id=** NOT SPECIFIED ** 
+2017-10-28 19:51:29,621[yyyy-mm-dd HH-MM-SS] DEBUG interview updated with post id : 2 and 4 
+2017-10-28 19:51:29,622[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-28 19:51:29,622[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@13da15: SELECT * FROM interview WHERE applicant_id=** NOT SPECIFIED ** AND post_id=** NOT SPECIFIED ** 
+2017-10-28 19:51:29,625[yyyy-mm-dd HH-MM-SS] DEBUG Get interview object : Interview [applicant=Applicant [applicantId=4, name=null, experience=0.0, highest_qual=null, email=null, contact=null], position=Position [postId=2, postName=null, noOfPosts=0, experience=0.0, hr=null, dateOfPost=null, status=false], dateOfInterview=2017-02-01, dateOfJoining=2017-12-15, location=Aurangabad, applicantResult=true, joiningStatus=true] 
+2017-10-28 19:51:46,709[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-28 19:51:46,712[yyyy-mm-dd HH-MM-SS] DEBUG file found : java.io.BufferedInputStream@1eba861 
+2017-10-28 19:51:46,712[yyyy-mm-dd HH-MM-SS] DEBUG Database Connection String : jdbc:mysql://localhost:3306/recruitment?useSSL=false 
+2017-10-28 19:51:47,148[yyyy-mm-dd HH-MM-SS] INFO  Connection established com.mysql.jdbc.JDBC4Connection@aa6d82 
+2017-10-28 19:51:47,170[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@1def03a: SELECT * FROM interview WHERE applicant_id=** NOT SPECIFIED ** AND post_id=** NOT SPECIFIED ** 
+2017-10-28 19:51:47,173[yyyy-mm-dd HH-MM-SS] DEBUG Get interview object : Interview [applicant=Applicant [applicantId=4, name=null, experience=0.0, highest_qual=null, email=null, contact=null], position=Position [postId=2, postName=null, noOfPosts=0, experience=0.0, hr=null, dateOfPost=null, status=false], dateOfInterview=2017-02-01, dateOfJoining=2017-12-15, location=Aurangabad, applicantResult=true, joiningStatus=true] 
+2017-10-28 19:51:47,173[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-28 19:51:47,174[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@1ae6ba4: UPDATE interview SET date_of_interview=** NOT SPECIFIED **,date_of_joining=** NOT SPECIFIED **,location=** NOT SPECIFIED **,applicant_result=** NOT SPECIFIED **,joining_status=** NOT SPECIFIED ** WHERE applicant_id=** NOT SPECIFIED ** AND post_id=** NOT SPECIFIED ** 
+2017-10-28 19:51:47,244[yyyy-mm-dd HH-MM-SS] DEBUG interview updated with post id : 2 and 4 
+2017-10-28 19:51:47,244[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-28 19:51:47,244[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@13da15: SELECT * FROM interview WHERE applicant_id=** NOT SPECIFIED ** AND post_id=** NOT SPECIFIED ** 
+2017-10-28 19:51:47,246[yyyy-mm-dd HH-MM-SS] DEBUG Get interview object : Interview [applicant=Applicant [applicantId=4, name=null, experience=0.0, highest_qual=null, email=null, contact=null], position=Position [postId=2, postName=null, noOfPosts=0, experience=0.0, hr=null, dateOfPost=null, status=false], dateOfInterview=2017-02-01, dateOfJoining=2017-12-15, location=Aurangabad, applicantResult=true, joiningStatus=false] 
+2017-10-28 19:59:14,250[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-28 19:59:14,253[yyyy-mm-dd HH-MM-SS] DEBUG file found : java.io.BufferedInputStream@1eba861 
+2017-10-28 19:59:14,253[yyyy-mm-dd HH-MM-SS] DEBUG Database Connection String : jdbc:mysql://localhost:3306/recruitment?useSSL=false 
+2017-10-28 19:59:14,620[yyyy-mm-dd HH-MM-SS] INFO  Connection established com.mysql.jdbc.JDBC4Connection@aa6d82 
+2017-10-28 19:59:14,642[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@1def03a: DELETE FROM interview WHERE applicant_id=** NOT SPECIFIED ** AND post_id=** NOT SPECIFIED ** 
+2017-10-28 19:59:14,714[yyyy-mm-dd HH-MM-SS] INFO  interview deleted : 1 
+2017-10-28 22:49:35,442[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-28 22:49:35,445[yyyy-mm-dd HH-MM-SS] DEBUG file found : java.io.BufferedInputStream@1eba861 
+2017-10-28 22:49:35,446[yyyy-mm-dd HH-MM-SS] DEBUG Database Connection String : jdbc:mysql://localhost:3306/recruitment?useSSL=false 
+2017-10-28 22:49:35,844[yyyy-mm-dd HH-MM-SS] INFO  Connection established com.mysql.jdbc.JDBC4Connection@aa6d82 
+2017-10-28 22:49:35,866[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@1def03a: INSERT INTO hr (name,department,contact,password) VALUES (** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **) 
+2017-10-28 22:49:35,924[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-28 22:49:35,926[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@1591d15: INSERT INTO hr (name,department,contact,password) VALUES (** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **) 
+2017-10-28 22:49:35,949[yyyy-mm-dd HH-MM-SS] ERROR Can not issue data manipulation statements with executeQuery(). 
+2017-10-28 22:49:35,950[yyyy-mm-dd HH-MM-SS] DEBUG HumanResource [hrId=0, name=null, department=null, contact=null, password=null] 
+2017-10-28 22:49:35,951[yyyy-mm-dd HH-MM-SS] DEBUG HR inserted : 1 
+2017-10-28 22:49:35,951[yyyy-mm-dd HH-MM-SS] INFO  HumanResource [hrId=0, name=null, department=null, contact=null, password=null] 
+2017-10-28 23:03:07,106[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-28 23:03:07,109[yyyy-mm-dd HH-MM-SS] DEBUG file found : java.io.BufferedInputStream@1eba861 
+2017-10-28 23:03:07,109[yyyy-mm-dd HH-MM-SS] DEBUG Database Connection String : jdbc:mysql://localhost:3306/recruitment?useSSL=false 
+2017-10-28 23:03:07,540[yyyy-mm-dd HH-MM-SS] INFO  Connection established com.mysql.jdbc.JDBC4Connection@aa6d82 
+2017-10-28 23:03:07,563[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@1def03a: INSERT INTO hr (name,department,contact,password) VALUES (** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **) 
+2017-10-28 23:03:07,635[yyyy-mm-dd HH-MM-SS] DEBUG HR inserted : 1 
+2017-10-28 23:08:35,113[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-28 23:08:35,118[yyyy-mm-dd HH-MM-SS] DEBUG file found : java.io.BufferedInputStream@1eba861 
+2017-10-28 23:08:35,119[yyyy-mm-dd HH-MM-SS] DEBUG Database Connection String : jdbc:mysql://localhost:3306/recruitment?useSSL=false 
+2017-10-28 23:08:35,528[yyyy-mm-dd HH-MM-SS] INFO  Connection established com.mysql.jdbc.JDBC4Connection@aa6d82 
+2017-10-28 23:08:35,553[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@1ae6ba4: INSERT INTO {0} ({1},{2},{3},{4}) VALUES (** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **) 
+2017-10-28 23:08:35,563[yyyy-mm-dd HH-MM-SS] ERROR Can not issue data manipulation statements with executeQuery(). 
+2017-10-28 23:08:35,563[yyyy-mm-dd HH-MM-SS] DEBUG HumanResource [hrId=0, name=null, department=null, contact=null, password=null] 
+2017-10-28 23:09:42,439[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-28 23:09:42,442[yyyy-mm-dd HH-MM-SS] DEBUG file found : java.io.BufferedInputStream@1eba861 
+2017-10-28 23:09:42,442[yyyy-mm-dd HH-MM-SS] DEBUG Database Connection String : jdbc:mysql://localhost:3306/recruitment?useSSL=false 
+2017-10-28 23:09:42,801[yyyy-mm-dd HH-MM-SS] INFO  Connection established com.mysql.jdbc.JDBC4Connection@aa6d82 
+2017-10-28 23:09:42,822[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@1def03a: SELECT * FROM hr WHERE hr_id=** NOT SPECIFIED ** 
+2017-10-28 23:09:42,824[yyyy-mm-dd HH-MM-SS] DEBUG HumanResource [hrId=1, name=Shravani, department=ABS, contact=9875454669, password=asdsadafd] 
+2017-10-28 23:10:00,258[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-28 23:10:00,260[yyyy-mm-dd HH-MM-SS] DEBUG file found : java.io.BufferedInputStream@1eba861 
+2017-10-28 23:10:00,261[yyyy-mm-dd HH-MM-SS] DEBUG Database Connection String : jdbc:mysql://localhost:3306/recruitment?useSSL=false 
+2017-10-28 23:10:00,618[yyyy-mm-dd HH-MM-SS] INFO  Connection established com.mysql.jdbc.JDBC4Connection@aa6d82 
+2017-10-28 23:10:00,639[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@1def03a: SELECT * FROM hr 
+2017-10-28 23:10:00,641[yyyy-mm-dd HH-MM-SS] DEBUG [HumanResource [hrId=1, name=Shravani, department=ABS, contact=9875454669, password=asdsadafd], HumanResource [hrId=2, name=Shrawani Jadhav, department=ABS, contact=9876549067, password=sadFDkj788%vv], HumanResource [hrId=3, name=Shrawani Jadhav, department=ABS, contact=9876549067, password=sadFDkj788%vv]] 
+2017-10-28 23:25:02,042[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-28 23:25:02,045[yyyy-mm-dd HH-MM-SS] DEBUG file found : java.io.BufferedInputStream@1eba861 
+2017-10-28 23:25:02,046[yyyy-mm-dd HH-MM-SS] DEBUG Database Connection String : jdbc:mysql://localhost:3306/recruitment?useSSL=false 
+2017-10-28 23:25:02,473[yyyy-mm-dd HH-MM-SS] INFO  Connection established com.mysql.jdbc.JDBC4Connection@aa6d82 
+2017-10-28 23:25:02,496[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@1def03a: DELETE FROM hr WHERE hr_id=** NOT SPECIFIED ** 
+2017-10-28 23:25:02,595[yyyy-mm-dd HH-MM-SS] INFO  HR deleted with id : 3 
+2017-10-28 23:49:04,093[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-28 23:49:04,096[yyyy-mm-dd HH-MM-SS] DEBUG file found : java.io.BufferedInputStream@1eba861 
+2017-10-28 23:49:04,096[yyyy-mm-dd HH-MM-SS] DEBUG Database Connection String : jdbc:mysql://localhost:3306/recruitment?useSSL=false 
+2017-10-28 23:49:04,536[yyyy-mm-dd HH-MM-SS] INFO  Connection established com.mysql.jdbc.JDBC4Connection@aa6d82 
+2017-10-28 23:49:04,559[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@1def03a: SELECT * FROM hr WHERE hr_id=** NOT SPECIFIED ** 
+2017-10-28 23:49:04,562[yyyy-mm-dd HH-MM-SS] DEBUG HumanResource [hrId=1, name=Shravani, department=ABS, contact=9875454669, password=asdsadafd] 
+2017-10-28 23:49:04,563[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-28 23:49:04,563[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@cf768c: UPDATE hr SET name=** NOT SPECIFIED **,department=** NOT SPECIFIED **,contact=** NOT SPECIFIED **,password=** NOT SPECIFIED ** WHERE hr_id=** NOT SPECIFIED ** 
+2017-10-28 23:49:04,669[yyyy-mm-dd HH-MM-SS] DEBUG HR updated with id : 1 
+2017-10-28 23:49:04,670[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-28 23:49:04,670[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@160847b: SELECT * FROM hr WHERE hr_id=** NOT SPECIFIED ** 
+2017-10-28 23:49:04,671[yyyy-mm-dd HH-MM-SS] DEBUG HumanResource [hrId=1, name=Shrawani Jadhav, department=ABS, contact=9876549067, password=sadFDkj788%vv] 
+2017-10-28 23:49:04,672[yyyy-mm-dd HH-MM-SS] INFO  updated HR : HumanResource [hrId=1, name=Shrawani Jadhav, department=ABS, contact=9876549067, password=sadFDkj788%vv] 
+2017-10-29 00:36:29,619[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-29 00:36:29,622[yyyy-mm-dd HH-MM-SS] DEBUG file found : java.io.BufferedInputStream@1eba861 
+2017-10-29 00:36:29,622[yyyy-mm-dd HH-MM-SS] DEBUG Database Connection String : jdbc:mysql://localhost:3306/recruitment?useSSL=false 
+2017-10-29 00:36:30,030[yyyy-mm-dd HH-MM-SS] INFO  Connection established com.mysql.jdbc.JDBC4Connection@aa6d82 
+2017-10-29 00:36:30,051[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@1def03a: SELECT * FROM applicant WHERE applicant_id=** NOT SPECIFIED ** 
+2017-10-29 01:03:41,801[yyyy-mm-dd HH-MM-SS] INFO  Applicant [applicantId=0, name=Hemant, experience=2.5, highest_qual=M.Sc., email=hemant.deshmukh@gmail.com, contact=9887654987] 
+2017-10-29 01:05:58,773[yyyy-mm-dd HH-MM-SS] INFO  Hemant 
+2017-10-29 01:06:30,673[yyyy-mm-dd HH-MM-SS] INFO  Hemant 
+2017-10-29 01:09:35,430[yyyy-mm-dd HH-MM-SS] INFO  Hemant 
+2017-10-29 01:12:19,223[yyyy-mm-dd HH-MM-SS] INFO  Hemant 
+2017-10-29 01:12:19,226[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-29 01:12:19,227[yyyy-mm-dd HH-MM-SS] DEBUG file found : java.io.BufferedInputStream@1480cf9 
+2017-10-29 01:12:19,227[yyyy-mm-dd HH-MM-SS] DEBUG Database Connection String : jdbc:mysql://localhost:3306/recruitment?useSSL=false 
+2017-10-29 01:12:19,639[yyyy-mm-dd HH-MM-SS] INFO  Connection established com.mysql.jdbc.JDBC4Connection@1a28541 
+2017-10-29 01:12:19,664[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@122cdd0: INSERT INTO applicant (name,experience,highest_qual,email,contact) VALUES (** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **) 
+2017-10-29 01:12:19,834[yyyy-mm-dd HH-MM-SS] DEBUG applicant inserted : 1 
+2017-10-29 12:03:22,451[yyyy-mm-dd HH-MM-SS] INFO  Select all applicant query : SELECT * FROM applicant 
+2017-10-29 12:03:22,455[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-29 12:03:22,457[yyyy-mm-dd HH-MM-SS] DEBUG file found : java.io.BufferedInputStream@1480cf9 
+2017-10-29 12:03:22,457[yyyy-mm-dd HH-MM-SS] DEBUG Database Connection String : jdbc:mysql://localhost:3306/recruitment?useSSL=false 
+2017-10-29 12:03:25,944[yyyy-mm-dd HH-MM-SS] INFO  Connection established com.mysql.jdbc.JDBC4Connection@1a28541 
+2017-10-29 12:03:25,969[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@122cdd0: SELECT * FROM applicant 
+2017-10-29 12:03:27,308[yyyy-mm-dd HH-MM-SS] DEBUG List of applicants : [Applicant [applicantId=1, name=Dhanraj, experience=2.5, highest_qual=null, email=dhan@hhjd, contact=8766544564], Applicant [applicantId=2, name=Akash, experience=5.0, highest_qual=M.TECH, email=aakash.mithari@gmail.com, contact=9404265196], Applicant [applicantId=3, name=Supriya, experience=1.0, highest_qual=B.E., email=supriya.sangolli@gmail.com, contact=9423569870], Applicant [applicantId=4, name=Savita, experience=2.0, highest_qual=B.E., email=savita.kulkarni@gmail.com, contact=9456489870], Applicant [applicantId=5, name=Hemant, experience=2.5, highest_qual=M.Sc., email=hemant.deshmukh@gmail.com, contact=9887654987]] 
+2017-10-29 12:41:51,741[yyyy-mm-dd HH-MM-SS] INFO  Update query for applicant : UPDATE applicant SET name=?,experience=?,highest_qual=?,email=?,contact=? WHERE applicant_id=? 
+2017-10-29 12:41:51,744[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-29 12:41:51,745[yyyy-mm-dd HH-MM-SS] DEBUG file found : java.io.BufferedInputStream@1480cf9 
+2017-10-29 12:41:51,746[yyyy-mm-dd HH-MM-SS] DEBUG Database Connection String : jdbc:mysql://localhost:3306/recruitment?useSSL=false 
+2017-10-29 12:41:52,267[yyyy-mm-dd HH-MM-SS] INFO  Connection established com.mysql.jdbc.JDBC4Connection@1a28541 
+2017-10-29 12:41:52,293[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@122cdd0: SELECT * FROM applicant WHERE applicant_id=** NOT SPECIFIED ** 
+2017-10-29 12:41:52,516[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-29 12:41:52,517[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@1ae6ba4: UPDATE applicant SET name=** NOT SPECIFIED **,experience=** NOT SPECIFIED **,highest_qual=** NOT SPECIFIED **,email=** NOT SPECIFIED **,contact=** NOT SPECIFIED ** WHERE applicant_id=** NOT SPECIFIED ** 
+2017-10-29 12:41:52,729[yyyy-mm-dd HH-MM-SS] DEBUG Applicant updated with id : 5 
+2017-10-29 12:41:52,729[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-29 12:41:52,730[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@a8f0b4: SELECT * FROM applicant WHERE applicant_id=** NOT SPECIFIED ** 
+2017-10-29 12:41:52,732[yyyy-mm-dd HH-MM-SS] INFO  updated Applicant : Applicant [applicantId=5, name=Ramesh, experience=2.5, highest_qual=M.Sc., email=hemant.deshmukh@gmail.com, contact=9887654987] 
+2017-10-29 12:48:24,985[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-29 12:48:24,987[yyyy-mm-dd HH-MM-SS] DEBUG file found : java.io.BufferedInputStream@1eba861 
+2017-10-29 12:48:24,988[yyyy-mm-dd HH-MM-SS] DEBUG Database Connection String : jdbc:mysql://localhost:3306/recruitment?useSSL=false 
+2017-10-29 12:48:25,444[yyyy-mm-dd HH-MM-SS] INFO  Connection established com.mysql.jdbc.JDBC4Connection@aa6d82 
+2017-10-29 12:48:25,465[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@1def03a: DELETE FROM applicant WHERE applicant_id=** NOT SPECIFIED ** 
+2017-10-29 12:48:25,858[yyyy-mm-dd HH-MM-SS] INFO  Applicant deleted with id : 5 
+2017-10-29 13:02:16,805[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-29 13:02:16,808[yyyy-mm-dd HH-MM-SS] DEBUG file found : java.io.BufferedInputStream@1eba861 
+2017-10-29 13:02:16,808[yyyy-mm-dd HH-MM-SS] DEBUG Database Connection String : jdbc:mysql://localhost:3306/recruitment?useSSL=false 
+2017-10-29 13:02:17,159[yyyy-mm-dd HH-MM-SS] INFO  Connection established com.mysql.jdbc.JDBC4Connection@aa6d82 
+2017-10-29 13:02:17,180[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@1def03a: SELECT * FROM skillset WHERE skill_id=** NOT SPECIFIED ** 
+2017-10-29 13:02:17,290[yyyy-mm-dd HH-MM-SS] DEBUG com.recruitment.model.SkillSet@1591d15 
+2017-10-29 13:03:09,670[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-29 13:03:09,673[yyyy-mm-dd HH-MM-SS] DEBUG file found : java.io.BufferedInputStream@1eba861 
+2017-10-29 13:03:09,673[yyyy-mm-dd HH-MM-SS] DEBUG Database Connection String : jdbc:mysql://localhost:3306/recruitment?useSSL=false 
+2017-10-29 13:03:10,047[yyyy-mm-dd HH-MM-SS] INFO  Connection established com.mysql.jdbc.JDBC4Connection@aa6d82 
+2017-10-29 13:03:10,067[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@1def03a: SELECT * FROM skillset WHERE skill_id=** NOT SPECIFIED ** 
+2017-10-29 13:03:10,085[yyyy-mm-dd HH-MM-SS] DEBUG SkillSet [skillId=1, skillName=angular] 
+2017-10-29 13:03:17,146[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-29 13:03:17,148[yyyy-mm-dd HH-MM-SS] DEBUG file found : java.io.BufferedInputStream@1eba861 
+2017-10-29 13:03:17,149[yyyy-mm-dd HH-MM-SS] DEBUG Database Connection String : jdbc:mysql://localhost:3306/recruitment?useSSL=false 
+2017-10-29 13:03:17,542[yyyy-mm-dd HH-MM-SS] INFO  Connection established com.mysql.jdbc.JDBC4Connection@aa6d82 
+2017-10-29 13:03:17,568[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@1def03a: SELECT * FROM skillset WHERE skill_id=** NOT SPECIFIED ** 
+2017-10-29 13:03:17,570[yyyy-mm-dd HH-MM-SS] DEBUG SkillSet [skillId=2, skillName=javascript] 
+2017-10-29 13:08:47,153[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-29 13:08:47,155[yyyy-mm-dd HH-MM-SS] DEBUG file found : java.io.BufferedInputStream@1eba861 
+2017-10-29 13:08:47,156[yyyy-mm-dd HH-MM-SS] DEBUG Database Connection String : jdbc:mysql://localhost:3306/recruitment?useSSL=false 
+2017-10-29 13:08:47,578[yyyy-mm-dd HH-MM-SS] INFO  Connection established com.mysql.jdbc.JDBC4Connection@aa6d82 
+2017-10-29 13:08:47,600[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@1def03a: INSERT INTO skillset (skill_name) VALUES (** NOT SPECIFIED **) 
+2017-10-29 13:08:47,699[yyyy-mm-dd HH-MM-SS] DEBUG Skillset inserted : 1 
+2017-10-29 13:17:16,684[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-29 13:17:16,687[yyyy-mm-dd HH-MM-SS] DEBUG file found : java.io.BufferedInputStream@1eba861 
+2017-10-29 13:17:16,687[yyyy-mm-dd HH-MM-SS] DEBUG Database Connection String : jdbc:mysql://localhost:3306/recruitment?useSSL=false 
+2017-10-29 13:17:17,080[yyyy-mm-dd HH-MM-SS] INFO  Connection established com.mysql.jdbc.JDBC4Connection@aa6d82 
+2017-10-29 13:17:17,103[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@1def03a: SELECT * FROM skillset 
+2017-10-29 13:17:17,117[yyyy-mm-dd HH-MM-SS] DEBUG [SkillSet [skillId=1, skillName=angular], SkillSet [skillId=2, skillName=javascript], SkillSet [skillId=3, skillName=Ext-JS]] 
+2017-10-29 13:23:36,822[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-29 13:23:36,824[yyyy-mm-dd HH-MM-SS] DEBUG file found : java.io.BufferedInputStream@1eba861 
+2017-10-29 13:23:36,825[yyyy-mm-dd HH-MM-SS] DEBUG Database Connection String : jdbc:mysql://localhost:3306/recruitment?useSSL=false 
+2017-10-29 13:23:37,236[yyyy-mm-dd HH-MM-SS] INFO  Connection established com.mysql.jdbc.JDBC4Connection@aa6d82 
+2017-10-29 13:23:37,257[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@1def03a: SELECT * FROM skillset WHERE skill_id=** NOT SPECIFIED ** 
+2017-10-29 13:23:37,278[yyyy-mm-dd HH-MM-SS] DEBUG SkillSet [skillId=3, skillName=Ext-JS] 
+2017-10-29 13:23:37,279[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-29 13:23:37,279[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@cf768c: UPDATE skillset SET skill_name=** NOT SPECIFIED ** WHERE skill_id=** NOT SPECIFIED ** 
+2017-10-29 13:23:37,430[yyyy-mm-dd HH-MM-SS] DEBUG skillset updated with id : 3 
+2017-10-29 13:23:37,431[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-29 13:23:37,431[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@160847b: SELECT * FROM skillset WHERE skill_id=** NOT SPECIFIED ** 
+2017-10-29 13:23:37,433[yyyy-mm-dd HH-MM-SS] DEBUG SkillSet [skillId=3, skillName=Ext-JS 2] 
+2017-10-29 13:23:37,434[yyyy-mm-dd HH-MM-SS] INFO  updated skillset : SkillSet [skillId=3, skillName=Ext-JS 2] 
+2017-10-29 13:26:49,528[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-29 13:26:49,531[yyyy-mm-dd HH-MM-SS] DEBUG file found : java.io.BufferedInputStream@1eba861 
+2017-10-29 13:26:49,531[yyyy-mm-dd HH-MM-SS] DEBUG Database Connection String : jdbc:mysql://localhost:3306/recruitment?useSSL=false 
+2017-10-29 13:26:49,947[yyyy-mm-dd HH-MM-SS] INFO  Connection established com.mysql.jdbc.JDBC4Connection@aa6d82 
+2017-10-29 13:26:49,971[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@1def03a: DELETE FROM skillset WHERE skill_id=** NOT SPECIFIED ** 
+2017-10-29 13:26:50,128[yyyy-mm-dd HH-MM-SS] INFO  skillSet deleted with id : 3 
+2017-10-29 15:30:27,193[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-29 15:30:27,214[yyyy-mm-dd HH-MM-SS] DEBUG file found : java.io.BufferedInputStream@1eba861 
+2017-10-29 15:30:27,215[yyyy-mm-dd HH-MM-SS] DEBUG Database Connection String : jdbc:mysql://localhost:3306/recruitment?useSSL=false 
+2017-10-29 15:30:27,775[yyyy-mm-dd HH-MM-SS] INFO  Connection established com.mysql.jdbc.JDBC4Connection@aa6d82 
+2017-10-29 15:30:27,798[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@1def03a: INSERT INTO applicant_apply_post VALUES (** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **) 
+2017-10-29 15:30:28,297[yyyy-mm-dd HH-MM-SS] ERROR Cannot add or update a child row: a foreign key constraint fails (`recruitment`.`applicant_apply_post`, CONSTRAINT `applicant_apply_post_ibfk_2` FOREIGN KEY (`APPLICANT_ID`) REFERENCES `applicant` (`APPLICANT_ID`)) 
+2017-10-29 15:31:41,066[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-29 15:31:41,068[yyyy-mm-dd HH-MM-SS] DEBUG file found : java.io.BufferedInputStream@1eba861 
+2017-10-29 15:31:41,069[yyyy-mm-dd HH-MM-SS] DEBUG Database Connection String : jdbc:mysql://localhost:3306/recruitment?useSSL=false 
+2017-10-29 15:31:41,473[yyyy-mm-dd HH-MM-SS] INFO  Connection established com.mysql.jdbc.JDBC4Connection@aa6d82 
+2017-10-29 15:31:41,496[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@1def03a: INSERT INTO applicant_apply_post VALUES (** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **) 
+2017-10-29 15:31:41,703[yyyy-mm-dd HH-MM-SS] DEBUG applicant applied : 1 
+2017-10-29 15:49:59,992[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-29 15:49:59,994[yyyy-mm-dd HH-MM-SS] DEBUG file found : java.io.BufferedInputStream@1eba861 
+2017-10-29 15:49:59,995[yyyy-mm-dd HH-MM-SS] DEBUG Database Connection String : jdbc:mysql://localhost:3306/recruitment?useSSL=false 
+2017-10-29 15:50:00,505[yyyy-mm-dd HH-MM-SS] INFO  Connection established com.mysql.jdbc.JDBC4Connection@aa6d82 
+2017-10-29 15:50:00,527[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@1def03a: SELECT * FROM applicant_apply_post WHERE post_id=** NOT SPECIFIED ** AND applicant_id=** NOT SPECIFIED ** 
+2017-10-29 15:50:00,614[yyyy-mm-dd HH-MM-SS] DEBUG ApplicantApply [post=Position [postId=3, postName=null, noOfPosts=0, experience=0.0, hr=null, dateOfPost=null, status=false], applicant=Applicant [applicantId=6, name=null, experience=0.0, highest_qual=null, email=null, contact=null], dateOfApply=2017-12-01] 
+2017-10-29 15:54:07,146[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-29 15:54:07,149[yyyy-mm-dd HH-MM-SS] DEBUG file found : java.io.BufferedInputStream@1eba861 
+2017-10-29 15:54:07,150[yyyy-mm-dd HH-MM-SS] DEBUG Database Connection String : jdbc:mysql://localhost:3306/recruitment?useSSL=false 
+2017-10-29 15:54:07,680[yyyy-mm-dd HH-MM-SS] INFO  Connection established com.mysql.jdbc.JDBC4Connection@aa6d82 
+2017-10-29 15:54:07,707[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@1ae6ba4: SELECT * FROM applicant_apply_post WHERE {1}=** NOT SPECIFIED ** AND {2}=** NOT SPECIFIED ** 
+2017-10-29 15:54:07,717[yyyy-mm-dd HH-MM-SS] ERROR No value specified for parameter 1 
+2017-10-29 15:54:07,717[yyyy-mm-dd HH-MM-SS] DEBUG [] 
+2017-10-29 16:16:08,576[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-29 16:16:08,579[yyyy-mm-dd HH-MM-SS] DEBUG file found : java.io.BufferedInputStream@1eba861 
+2017-10-29 16:16:08,579[yyyy-mm-dd HH-MM-SS] DEBUG Database Connection String : jdbc:mysql://localhost:3306/recruitment?useSSL=false 
+2017-10-29 16:16:08,972[yyyy-mm-dd HH-MM-SS] INFO  Connection established com.mysql.jdbc.JDBC4Connection@aa6d82 
+2017-10-29 16:16:08,993[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@1def03a: SELECT * FROM applicant_apply_post 
+2017-10-29 16:16:09,029[yyyy-mm-dd HH-MM-SS] DEBUG [ApplicantApply [post=Position [postId=1, postName=null, noOfPosts=0, experience=0.0, hr=null, dateOfPost=null, status=false], applicant=Applicant [applicantId=1, name=null, experience=0.0, highest_qual=null, email=null, contact=null], dateOfApply=2017-11-05], ApplicantApply [post=Position [postId=1, postName=null, noOfPosts=0, experience=0.0, hr=null, dateOfPost=null, status=false], applicant=Applicant [applicantId=2, name=null, experience=0.0, highest_qual=null, email=null, contact=null], dateOfApply=2017-11-04], ApplicantApply [post=Position [postId=2, postName=null, noOfPosts=0, experience=0.0, hr=null, dateOfPost=null, status=false], applicant=Applicant [applicantId=2, name=null, experience=0.0, highest_qual=null, email=null, contact=null], dateOfApply=2017-10-04], ApplicantApply [post=Position [postId=2, postName=null, noOfPosts=0, experience=0.0, hr=null, dateOfPost=null, status=false], applicant=Applicant [applicantId=3, name=null, experience=0.0, highest_qual=null, email=null, contact=null], dateOfApply=2017-09-04], ApplicantApply [post=Position [postId=2, postName=null, noOfPosts=0, experience=0.0, hr=null, dateOfPost=null, status=false], applicant=Applicant [applicantId=4, name=null, experience=0.0, highest_qual=null, email=null, contact=null], dateOfApply=2017-09-04], ApplicantApply [post=Position [postId=3, postName=null, noOfPosts=0, experience=0.0, hr=null, dateOfPost=null, status=false], applicant=Applicant [applicantId=6, name=null, experience=0.0, highest_qual=null, email=null, contact=null], dateOfApply=2017-12-01]] 
+2017-10-30 18:35:57,252[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-30 18:35:57,287[yyyy-mm-dd HH-MM-SS] DEBUG file found : java.io.BufferedInputStream@1496d9f 
+2017-10-30 18:35:57,288[yyyy-mm-dd HH-MM-SS] DEBUG Database Connection String : jdbc:mysql://localhost:3306/recruitment?useSSL=false 
+2017-10-30 18:35:58,897[yyyy-mm-dd HH-MM-SS] INFO  Connection established com.mysql.jdbc.JDBC4Connection@175e721 
+2017-10-30 18:35:58,927[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@81f4dc: SELECT AUTO_INCREMENT FROM information_schema.TABLES WHERE TABLE_SCHEMA =recruitmentAND TABLE_NAME = applicant 
+2017-10-30 18:37:24,668[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-30 18:37:24,671[yyyy-mm-dd HH-MM-SS] DEBUG file found : java.io.BufferedInputStream@1496d9f 
+2017-10-30 18:37:24,672[yyyy-mm-dd HH-MM-SS] DEBUG Database Connection String : jdbc:mysql://localhost:3306/recruitment?useSSL=false 
+2017-10-30 18:37:25,040[yyyy-mm-dd HH-MM-SS] INFO  Connection established com.mysql.jdbc.JDBC4Connection@175e721 
+2017-10-30 18:37:25,056[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@81f4dc: SELECT AUTO_INCREMENT FROM information_schema.TABLES WHERE TABLE_SCHEMA =recruitment AND TABLE_NAME = applicant 
+2017-10-30 18:37:49,996[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-30 18:37:49,999[yyyy-mm-dd HH-MM-SS] DEBUG file found : java.io.BufferedInputStream@1496d9f 
+2017-10-30 18:37:49,999[yyyy-mm-dd HH-MM-SS] DEBUG Database Connection String : jdbc:mysql://localhost:3306/recruitment?useSSL=false 
+2017-10-30 18:37:50,367[yyyy-mm-dd HH-MM-SS] INFO  Connection established com.mysql.jdbc.JDBC4Connection@175e721 
+2017-10-30 18:37:50,383[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@81f4dc: SELECT AUTO_INCREMENT FROM information_schema.TABLES WHERE TABLE_SCHEMA =recruitment AND TABLE_NAME = applicant 
+2017-10-30 18:40:08,317[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-30 18:40:08,320[yyyy-mm-dd HH-MM-SS] DEBUG file found : java.io.BufferedInputStream@1496d9f 
+2017-10-30 18:40:08,320[yyyy-mm-dd HH-MM-SS] DEBUG Database Connection String : jdbc:mysql://localhost:3306/recruitment?useSSL=false 
+2017-10-30 18:40:08,774[yyyy-mm-dd HH-MM-SS] INFO  Connection established com.mysql.jdbc.JDBC4Connection@175e721 
+2017-10-30 18:40:08,792[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@81f4dc: SELECT AUTO_INCREMENT FROM information_schema.TABLES WHERE TABLE_SCHEMA ='recruitment' AND TABLE_NAME = 'applicant' 
+2017-10-30 18:50:31,394[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-30 18:50:31,397[yyyy-mm-dd HH-MM-SS] DEBUG file found : java.io.BufferedInputStream@1496d9f 
+2017-10-30 18:50:31,397[yyyy-mm-dd HH-MM-SS] DEBUG Database Connection String : jdbc:mysql://localhost:3306/recruitment?useSSL=false 
+2017-10-30 18:50:31,828[yyyy-mm-dd HH-MM-SS] INFO  Connection established com.mysql.jdbc.JDBC4Connection@175e721 
+2017-10-30 18:50:31,844[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@81f4dc: SELECT AUTO_INCREMENT FROM information_schema.TABLES WHERE TABLE_SCHEMA ="recruitment" AND TABLE_NAME = "applicant" 
+2017-10-30 18:52:07,656[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-30 18:52:07,658[yyyy-mm-dd HH-MM-SS] DEBUG file found : java.io.BufferedInputStream@1496d9f 
+2017-10-30 18:52:07,659[yyyy-mm-dd HH-MM-SS] DEBUG Database Connection String : jdbc:mysql://localhost:3306/recruitment?useSSL=false 
+2017-10-30 18:52:08,041[yyyy-mm-dd HH-MM-SS] INFO  Connection established com.mysql.jdbc.JDBC4Connection@175e721 
+2017-10-30 18:52:08,057[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@81f4dc: SELECT AUTO_INCREMENT FROM information_schema.TABLES WHERE TABLE_SCHEMA ="recruitment" AND TABLE_NAME = "applicant" 
+2017-10-30 19:00:09,189[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-30 19:00:09,192[yyyy-mm-dd HH-MM-SS] DEBUG file found : java.io.BufferedInputStream@1496d9f 
+2017-10-30 19:00:09,192[yyyy-mm-dd HH-MM-SS] DEBUG Database Connection String : jdbc:mysql://localhost:3306/recruitment?useSSL=false 
+2017-10-30 19:00:09,589[yyyy-mm-dd HH-MM-SS] INFO  Connection established com.mysql.jdbc.JDBC4Connection@175e721 
+2017-10-30 19:00:09,606[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@81f4dc: SELECT AUTO_INCREMENT FROM information_schema.TABLES WHERE TABLE_SCHEMA ="recruitment" AND TABLE_NAME = "applicant" 
+2017-10-30 19:00:09,688[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-30 19:00:09,689[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@cf768c: SELECT AUTO_INCREMENT FROM information_schema.TABLES WHERE TABLE_SCHEMA ="recruitment" AND TABLE_NAME = "hr" 
+2017-10-30 19:00:09,870[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-30 19:00:09,871[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@a8f0b4: SELECT AUTO_INCREMENT FROM information_schema.TABLES WHERE TABLE_SCHEMA ="recruitment" AND TABLE_NAME = "post" 
+2017-10-30 19:00:09,916[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-30 19:00:09,917[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@8da962: SELECT AUTO_INCREMENT FROM information_schema.TABLES WHERE TABLE_SCHEMA ="recruitment" AND TABLE_NAME = "skillset" 
+2017-10-30 22:08:35,223[yyyy-mm-dd HH-MM-SS] INFO  Kishor 
+2017-10-30 22:08:35,228[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-30 22:08:35,229[yyyy-mm-dd HH-MM-SS] DEBUG file found : java.io.BufferedInputStream@3279cf 
+2017-10-30 22:08:35,230[yyyy-mm-dd HH-MM-SS] DEBUG Database Connection String : jdbc:mysql://localhost:3306/recruitment?useSSL=false 
+2017-10-30 22:08:36,317[yyyy-mm-dd HH-MM-SS] INFO  Connection established com.mysql.jdbc.JDBC4Connection@1222c14 
+2017-10-30 22:08:36,348[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@1591d15: INSERT INTO applicant (name,experience,highest_qual,email,contact) VALUES (** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **) 
+2017-10-30 22:08:36,458[yyyy-mm-dd HH-MM-SS] DEBUG applicant inserted : 1 
+2017-10-30 22:08:36,478[yyyy-mm-dd HH-MM-SS] ERROR Generated keys not requested. You need to specify Statement.RETURN_GENERATED_KEYS to Statement.executeUpdate(), Statement.executeLargeUpdate() or Connection.prepareStatement(). 
+2017-10-30 22:12:59,459[yyyy-mm-dd HH-MM-SS] INFO  MyKishor 
+2017-10-30 22:12:59,463[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-30 22:12:59,464[yyyy-mm-dd HH-MM-SS] DEBUG file found : java.io.BufferedInputStream@3279cf 
+2017-10-30 22:12:59,465[yyyy-mm-dd HH-MM-SS] DEBUG Database Connection String : jdbc:mysql://localhost:3306/recruitment?useSSL=false 
+2017-10-30 22:12:59,875[yyyy-mm-dd HH-MM-SS] INFO  Connection established com.mysql.jdbc.JDBC4Connection@1222c14 
+2017-10-30 22:12:59,892[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@1591d15: INSERT INTO applicant (name,experience,highest_qual,email,contact) VALUES (** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **) 
+2017-10-30 22:12:59,961[yyyy-mm-dd HH-MM-SS] DEBUG applicant inserted : 1 
+2017-10-30 22:12:59,982[yyyy-mm-dd HH-MM-SS] ERROR Generated keys not requested. You need to specify Statement.RETURN_GENERATED_KEYS to Statement.executeUpdate(), Statement.executeLargeUpdate() or Connection.prepareStatement(). 
+2017-10-30 22:15:02,840[yyyy-mm-dd HH-MM-SS] INFO  Mangesh 
+2017-10-30 22:15:02,845[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-30 22:15:02,845[yyyy-mm-dd HH-MM-SS] DEBUG file found : java.io.BufferedInputStream@3279cf 
+2017-10-30 22:15:02,845[yyyy-mm-dd HH-MM-SS] DEBUG Database Connection String : jdbc:mysql://localhost:3306/recruitment?useSSL=false 
+2017-10-30 22:15:03,205[yyyy-mm-dd HH-MM-SS] INFO  Connection established com.mysql.jdbc.JDBC4Connection@1222c14 
+2017-10-30 22:15:03,225[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@1591d15: INSERT INTO applicant (name,experience,highest_qual,email,contact) VALUES (** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **) 
+2017-10-30 22:15:03,300[yyyy-mm-dd HH-MM-SS] DEBUG applicant inserted : 1 
+2017-10-30 22:15:03,485[yyyy-mm-dd HH-MM-SS] ERROR Column Index out of range, 2 > 1.  
+2017-10-30 22:16:10,459[yyyy-mm-dd HH-MM-SS] INFO  suresh 
+2017-10-30 22:16:10,464[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-30 22:16:10,464[yyyy-mm-dd HH-MM-SS] DEBUG file found : java.io.BufferedInputStream@3279cf 
+2017-10-30 22:16:10,464[yyyy-mm-dd HH-MM-SS] DEBUG Database Connection String : jdbc:mysql://localhost:3306/recruitment?useSSL=false 
+2017-10-30 22:16:10,834[yyyy-mm-dd HH-MM-SS] INFO  Connection established com.mysql.jdbc.JDBC4Connection@1222c14 
+2017-10-30 22:16:10,849[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@1591d15: INSERT INTO applicant (name,experience,highest_qual,email,contact) VALUES (** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **) 
+2017-10-30 22:16:10,964[yyyy-mm-dd HH-MM-SS] DEBUG applicant inserted : 1 
+2017-10-30 22:37:01,816[yyyy-mm-dd HH-MM-SS] INFO  ramesh 
+2017-10-30 22:37:01,821[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-30 22:37:01,821[yyyy-mm-dd HH-MM-SS] DEBUG file found : java.io.BufferedInputStream@3279cf 
+2017-10-30 22:37:01,826[yyyy-mm-dd HH-MM-SS] DEBUG Database Connection String : jdbc:mysql://localhost:3306/recruitment?useSSL=false 
+2017-10-30 22:37:02,306[yyyy-mm-dd HH-MM-SS] INFO  Connection established com.mysql.jdbc.JDBC4Connection@1222c14 
+2017-10-30 22:37:02,326[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@1591d15: INSERT INTO applicant (name,experience,highest_qual,email,contact) VALUES (** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **) 
+2017-10-30 22:37:02,426[yyyy-mm-dd HH-MM-SS] DEBUG applicant inserted : 1 

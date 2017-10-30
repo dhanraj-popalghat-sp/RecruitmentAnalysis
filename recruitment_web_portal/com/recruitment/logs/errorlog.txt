@@ -1,0 +1,5 @@
+2017-10-30 21:00:16,913[yyyy-mm-dd HH-MM-SS] INFO  entered into getStatement() 
+2017-10-30 21:00:16,936[yyyy-mm-dd HH-MM-SS] DEBUG file found : sun.net.www.protocol.jar.JarURLConnection$JarURLInputStream@193b845 
+2017-10-30 21:00:16,936[yyyy-mm-dd HH-MM-SS] DEBUG Database Connection String : jdbc:mysql://localhost:3306/recruitment?useSSL=false 
+2017-10-30 21:00:17,533[yyyy-mm-dd HH-MM-SS] INFO  Connection established com.mysql.jdbc.JDBC4Connection@1222c14 
+2017-10-30 21:00:17,554[yyyy-mm-dd HH-MM-SS] DEBUG Statement is : com.mysql.jdbc.JDBC42PreparedStatement@1591d15: SELECT AUTO_INCREMENT FROM information_schema.TABLES WHERE TABLE_SCHEMA ="recruitment" AND TABLE_NAME = "applicant" 
