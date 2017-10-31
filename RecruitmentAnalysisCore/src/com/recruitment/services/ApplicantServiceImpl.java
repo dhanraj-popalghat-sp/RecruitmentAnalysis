@@ -9,7 +9,9 @@ import com.recruitment.dao.ApplicantDAO;
 import com.recruitment.model.Applicant;
 
 /**
- * @author User
+ * 
+ * {@ ApplicantServiceImpl} service implementation provides functionality over
+ * <i>ApplicantDAO</i>
  *
  */
 public class ApplicantServiceImpl implements GenericServiceProvider<Applicant> {
@@ -17,10 +19,11 @@ public class ApplicantServiceImpl implements GenericServiceProvider<Applicant> {
 	ApplicantDAO applicantDAO = new ApplicantDAO();
 
 	/*
-	 * (non-Javadoc)
 	 * 
-	 * @see
-	 * com.recruitment.services.GenericServiceProvider#add(java.lang.Object)
+	 * 
+	 * @param applicant Takes applicant object from User
+	 * 
+	 * @return applicant added applicant object
 	 */
 	@Override
 	public Applicant add(Applicant applicant) {
@@ -28,9 +31,9 @@ public class ApplicantServiceImpl implements GenericServiceProvider<Applicant> {
 	}
 
 	/*
-	 * (non-Javadoc)
+	 * @param applicantId Takes applicant Id which want to delete, as an Integer
 	 * 
-	 * @see com.recruitment.services.GenericServiceProvider#delete(int)
+	 * @return applicantId Deleted applicantId
 	 */
 	@Override
 	public boolean delete(int applicantId) {
@@ -38,10 +41,10 @@ public class ApplicantServiceImpl implements GenericServiceProvider<Applicant> {
 	}
 
 	/*
-	 * (non-Javadoc)
+	 * @param applicant Takes applicant object as the user wants to update like
+	 * applicant name, applicant experience
 	 * 
-	 * @see
-	 * com.recruitment.services.GenericServiceProvider#update(java.lang.Object)
+	 * @return applicant updated applicant object
 	 */
 	@Override
 	public Applicant update(Applicant applicant) {
@@ -49,9 +52,7 @@ public class ApplicantServiceImpl implements GenericServiceProvider<Applicant> {
 	}
 
 	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see com.recruitment.services.GenericServiceProvider#retrieveAll()
+	 * @ return List of applicant objects
 	 */
 	@Override
 	public List<Applicant> retrieveAll() {
@@ -59,10 +60,11 @@ public class ApplicantServiceImpl implements GenericServiceProvider<Applicant> {
 	}
 
 	/*
-	 * (non-Javadoc)
+	 * @ param applicant_Id Takes an integer
 	 * 
-	 * @see com.recruitment.services.GenericServiceProvider#retrieve(int)
+	 * @ return
 	 */
+
 	@Override
 	public Applicant retrieve(int applicantId) {
 		return applicantDAO.retrieve(applicantId);

@@ -7,7 +7,7 @@ import java.util.List;
  * between all implementing DAOs.
  * <p>
  * 
- */
+ */  
 
 public interface GenericDAOContract<E> {
 
